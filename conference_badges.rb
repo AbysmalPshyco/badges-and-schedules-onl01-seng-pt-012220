@@ -17,6 +17,11 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
+<<<<<<< HEAD
   batch_badge_creator(attendees).each {|badge| puts badge}
   assign_rooms(attendees).each {|name| puts name}
 end
+=======
+  print batch_badge_creator(attendees)
+end
+>>>>>>> 75b1601d7cb7c780850ab4c3a9baea52b0e08809
